@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+body {
+  background-color: rgb(2, 4, 0);
+  color: rgb(244, 244, 244);
+  text-align: center;
+}
+#example1{
+  background-image: url(https://www.sc.su.ac.th/slider/image/scpr-4.jpg);
+  padding: 80px;
+}
+
+
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #000000;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid ;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+ 
